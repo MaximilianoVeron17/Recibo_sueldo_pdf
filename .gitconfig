@@ -1,0 +1,11 @@
+[core]
+	excludesFile = ~/.gitignore
+	quotepath = off
+	checkStat = minimal
+[pull]
+	rebase = false
+[user]
+	name = Maximiliano Veron
+	email = 84736064+MaximilianoVeron17@users.noreply.github.com
+[credential]
+	helper = "!f() { echo \"username=$(cat /user-store/maximilianoveron87/tokens/.githubtoken)\npassword=\"; }; f"
